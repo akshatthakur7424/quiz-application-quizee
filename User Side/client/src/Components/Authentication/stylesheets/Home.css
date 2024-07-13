@@ -1,0 +1,70 @@
+body {
+    /* background-color: rgb(30, 27, 27); */
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    top: 10%;
+    background-color: rgb(30, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.quote{
+    width: 400px;
+    text-align: left;
+}
+
+.quote h1{
+    font-size: 42px;
+    color: white;
+    margin-left: 40px;
+}
+
+.image img{
+    height: 90vh;
+    padding-top: 10vh;
+    margin-right: -100px;
+    background-color: rgb(30, 27, 27);
+
+}
+
+/* label{
+    color: orangered;
+} */
+
+.join{
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.join:hover{
+    width: 120px;
+}
+
+.faculty{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(30, 27, 27);
+}

@@ -1,0 +1,33 @@
+.dashboard-navbar{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(22, 46, 92);
+    box-shadow: 2px 0px 5px black;
+    color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.question-dashboard-navbar-content{
+    width: 600px;
+    /* background-color: green; */
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-control-buttons{
+    width: 200px;
+    height: 40px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(59, 126, 226);
+}

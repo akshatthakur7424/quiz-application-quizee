@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.company-name{
+    font-size: 22px;
+    color: white;
+}
+
+.company-id{
+    font-size: 22px;
+    color: white;
+}
+
+
+
+.show-quiz-main{
+    width: 100vw;
+    height: auto;
+    margin-top: 50px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.no-quizes-found{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    margin-top: "200px"
+}
